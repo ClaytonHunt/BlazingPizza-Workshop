@@ -1,10 +1,7 @@
-﻿using BlazingPizza.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using BlazingPizza.Server.Data;
+using BlazingPizza.Shared;
 
-namespace BlazingPizza.Server.Data
+namespace BlazingPizza.Server
 {
     public static class SeedData
     {
@@ -15,17 +12,17 @@ namespace BlazingPizza.Server.Data
                 new Topping()
                 {
                     Name = "Extra cheese",
-                    Price = 2.50m
+                    Price = 2.50m,
                 },
                 new Topping()
                 {
                     Name = "American bacon",
-                    Price = 2.99m
+                    Price = 2.99m,
                 },
                 new Topping()
                 {
                     Name = "British bacon",
-                    Price = 2.99m
+                    Price = 2.99m,
                 },
                 new Topping()
                 {
