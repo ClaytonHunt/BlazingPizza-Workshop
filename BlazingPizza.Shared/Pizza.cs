@@ -16,7 +16,7 @@ namespace BlazingPizza.Shared
         public PizzaSpecial Special { get; set; }
         public int SpecialId { get; set; }
         public int Size { get; set; }
-        public IList<PizzaTopping> Toppings { get; set; }
+        public List<PizzaTopping> Toppings { get; set; }
         public decimal GetBasePrice()
         {
             return Size / DefaultSize * Special.BasePrice;
